@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:padding="5dp">
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardElevation="8dp"
+        app:cardCornerRadius="12dp"
+        android:id="@+id/ideaCard__2"
+        android:clickable="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="Hoja de ruta Logística"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorGris"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view_route"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="10dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorGrisClaro"
+                android:paddingBottom="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/menu_desplegable"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:paddingTop="5dp"
+                >
+                <ImageView
+                    android:id="@+id/img_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/ic_show"/>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

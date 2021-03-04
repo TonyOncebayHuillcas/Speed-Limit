@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Las Bambas</string>
+    <string name="action_sign_up">INICIAR SESIÓN</string>
+    <string name="title_login">INICIO DE SESIÓN</string>
+    <string name="action_register">Registrar</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="categorias">Categorías de Ruta</string>
+    <string name="historial">Historial de Rutas</string>
+    <string name="sync_data">Sincronizar Data</string>
+    <string name="report">Generar Reporte</string>
+    <string name="action_loading">Cargando, espere porfavor...</string>
+    <string name="logout">Salir</string>
+    <string name="empty">No se encontraron datos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

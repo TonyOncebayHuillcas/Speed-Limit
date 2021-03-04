@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_route_category"
+        android:icon="@drawable/ic_categorys"
+        android:title="@string/categorias" />
+
+    <item
+        android:id="@+id/navigation_history_route"
+        android:icon="@drawable/ic_history_routes"
+        android:title="@string/historial" />
+</menu>

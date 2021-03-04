@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#112c53</color>
+    <color name="colorPrimaryDark">#112C53</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="colorBlueDarkfound">#E7E8EF</color>
+    <color name="found_blue">#EDEFFA</color>
+    <color name="found_red">#FAEDED</color>
+    <color name="colorAccentBlank">#fff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="colorGris">#8F8F8F</color>
+    <color name="colorGrisClaro">#B6B6B6</color>
+    <color name="colorOscuro">#4E4A4A</color>
+    <color name="red">#BB2A0B</color>
+    <color name="green">#1D5B04</color>
+    <color name="foubd_green">#BAE8A8</color>
+
+
+    <color name="found_button">#0040FF</color>
+    <color name="red_button">#FF0000</color>
+
+
+</resources>
